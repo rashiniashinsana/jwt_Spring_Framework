@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3650b5-9d3a-40ad-b348-d7a82ed1bf15" name="Changes" comment="" />
+    <list default="true" id="be3650b5-9d3a-40ad-b348-d7a82ed1bf15" name="Changes" comment="Create JWTUtil">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse68/jwt/config/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse68/jwt/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse68/jwt/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse68/jwt/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse68/jwt/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +26,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,6 +48,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2kx6wXz78VQhO0OMnIKCO92nwAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,6 +58,8 @@
     "Application.HelloServlet.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -95,11 +109,60 @@
       <option name="presentableId" value="Default" />
       <updated>1724213126777</updated>
       <workItem from="1724213127823" duration="382000" />
-      <workItem from="1724213650663" duration="12225000" />
+      <workItem from="1724213650663" duration="15798000" />
     </task>
+    <task id="LOCAL-00001" summary="Create User DTO and User">
+      <option name="closed" value="true" />
+      <created>1724264294627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264294627</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create Auth DTO">
+      <option name="closed" value="true" />
+      <created>1724264331660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264331660</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create Response DTO">
+      <option name="closed" value="true" />
+      <created>1724264362198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264362198</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create Repository and UserService interfaces">
+      <option name="closed" value="true" />
+      <created>1724264442233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264442233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create JWTUtil">
+      <option name="closed" value="true" />
+      <created>1724264492440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264492440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create User DTO and User" />
+    <MESSAGE value="Create Auth DTO" />
+    <MESSAGE value="Create Response DTO" />
+    <MESSAGE value="Create Repository and UserService interfaces" />
+    <MESSAGE value="Create JWTUtil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create JWTUtil" />
   </component>
 </project>
